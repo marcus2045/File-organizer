@@ -16,14 +16,6 @@ A simple, lightweight Windows utility that automatically organizes files inside 
 • 	Optional Windows startup support
 • 	No Python required when using the exe
 
-⚠️ Known Bug (Work in Progress)
-There is a current issue where:
-
-If the config file is placed anywhere else, the app may fail to read or write the saved folder path.
-Status
-Work in Progress
-A fix is being developed to ensure the config file is always stored and accessed from the correct directory regardless of where the  is run.
-
 📁 How the App Works (Using )
 1. Download the App
 Download the  file and place it anywhere you like (Desktop, Documents, etc.).
@@ -43,9 +35,8 @@ The app will:
 • 	Enable Startup → App launches automatically when Windows starts
 • 	Disable Startup → Removes the startup entry
 6. Config File
-The app stores your chosen folder in:
+The app stores your chosen folder in app data roaming
 
-This file must currently remain in the Downloads folder due to the known bug
 
 For the smoothest experience, set your web browser’s default Download location to the same folder you selected inside the File Organizer app.
 This ensures that every new file you download is automatically placed into the folder the app manages, making organization effortless and keeping your system tidy without any extra steps.
